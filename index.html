@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Taller de Arquitectura</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+		integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container"></div>
+	<div class="meal-wrapper">
+		<div class="meal-search">
+			<h2 class="tittle">Esto es el titulo</h2>
+			<blockquote>Real food doesn´t have ingredients, real food is ingredients.<br>
+				<cite>- Jonathan Molina Fuentes</cite>
+			</blockquote>
+
+			<div class="meal-search-box">
+				<input type="text" class="search-control btn" id="search-input" placeholder="Escribe aqui">
+				<button type="submit" class="search-btn btn" id="search-btn">
+					<i class="fas fa-search"></i>
+				</button>
+			</div>
+		</div>
+
+		<div class="meal-result">
+			<h2 class="tittle">Your Search Results: </h2>
+			<div id="meal" class = "meal-carousel">
+				<!-- meal carousel-->
+			</div>
+		</div>
+
+		<div class="meal-details">
+			<!-- recipe close btn-->
+			<button type="button" class="btn recipe-close-btn" id="recipe-close-btn">
+				<i class="fas fa-times"></i>
+			</button>
+			
+			<div class="meal-details-content">
+				<!--meal content-->
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
