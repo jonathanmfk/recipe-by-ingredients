@@ -41,7 +41,7 @@ async function getMealList(){
       });
       mealList.classList.remove('notFound');
     } else {
-      html = `Perdón, pero no existe la receta "${searchInputTxt}"`;
+      html = `Sorry, but there is no ingredient with "${searchInputTxt}"`;
       mealList.classList.add('notFound');
     }
     mealList.innerHTML = html;
