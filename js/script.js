@@ -33,7 +33,7 @@ async function getMealList(){
             <div class = "meal-carousel__details" data-id = "${meal.idMeal}">
               <div class="meal-name">
                 <h3>${meal.strMeal}</h3>
-                <a href="#" class="recipe-btn">Receta</a>
+                <a href="#" class="recipe-btn">Recipe</a>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@ function mealRecipeModal(meal){
         <img src="${meal.strMealThumb}" alt="${meal.strMeal}">
       </div>
       <div class="recipe-link">
-        <a href="${meal.strYoutube}" target="_blank">Mirar Video</a>
+        <a href="${meal.strYoutube}" target="_blank">Watch Video</a>
       </div>
     `;
     mealDetailsContent.innerHTML = html;
